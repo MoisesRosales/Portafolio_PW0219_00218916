@@ -87,14 +87,14 @@
         color:  #1A237E;
     }
     .btn.border.green{
-        border-color: #4CAF50;
+        border: #4CAF50 1px solid;
         color:  #4CAF50;
     }
     .btn.border.sky{
-        border-color: #00BCD4;
+        border: #00BCD4 1px solid;
         color: #00BCD4;
     }
     .btn.border.purple{
-        border-color: #673AB7;
+        border: #673AB7 1px solid;
         color:  #673AB7;
     }
