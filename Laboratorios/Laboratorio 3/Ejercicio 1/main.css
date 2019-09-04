@@ -1,0 +1,62 @@
+#Galeries{
+    display: grid;
+
+    justify-content: center;
+
+    grid-template: 100px 100px 100px/ 100px 100px 100px;
+    grid-gap: 5px;
+}
+
+#Galeries>span{
+    width: 100%;
+    height: 100%;
+
+    margin: 0; 
+}
+
+#Galeries>.one{
+    background: grey;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#Galeries>.two{
+    background: hotpink;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+#Galeries>.three{
+    background: indianred;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#Galeries>.four{
+    background: tomato;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+#Galeries>.five{
+    background: skyblue;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+#Galeries>.six{
+    background: grey;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#Galeries>.seven{
+    background: hotpink;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+#Galeries>.eigth{
+    background: indianred;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}

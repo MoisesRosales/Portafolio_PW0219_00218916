@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(https://imagenesbonitas.app/wp-content/uploads/2018/09/imagen-de-cubo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    height: 100%;
+}
+.Logos img{
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+}
+.Logos{
+    
+}
+.Tittle{
+    color: white
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    
+}
+footer button{
+    margin: 2em;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
