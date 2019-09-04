@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 html{
     height: 100%;
 }
 body{
+    display: flex;
+    flex-direction: column;
     background-image: url(https://imagenesbonitas.app/wp-content/uploads/2018/09/imagen-de-cubo.png);
     background-attachment: fixed;
     background-position: center;
@@ -15,10 +19,17 @@ body{
     border-radius: 100%;
 }
 .Logos{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
     
 }
 .Tittle{
-    color: white
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 6em;
+    text-align: center;
 }
 nav{
     display: flex;
@@ -39,5 +50,8 @@ footer button{
 main{
     display: flex;
     justify-content: center;
+
+    flex-direction: column;
     height: 80%;
+    align-items: center;
 }
