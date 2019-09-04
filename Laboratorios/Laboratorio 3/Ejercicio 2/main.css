@@ -13,40 +13,6 @@ body{
 
     height: 100%;
 }
-.Logos img{
-    width: 4em;
-    height: 4em;
-    border-radius: 100%;
-}
-.Logos{
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    flex-wrap: wrap;
-    
-}
-.Tittle{
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 6em;
-    text-align: center;
-}
-nav{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: auto;
-}
-footer{
-    display: flex;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-    
-}
-footer button{
-    margin: 2em;
-}
 main{
     display: flex;
     justify-content: center;
@@ -54,4 +20,96 @@ main{
     flex-direction: column;
     height: 80%;
     align-items: center;
+}
+.Tittle{
+
+    background-color: #f5f5f5;
+    opacity: 0.3;   
+}
+.Tittle h1{
+    font-family: 'Oswald', sans-serif;
+    color: #424242;
+    font-size: 6em;
+    
+    padding: 0%;
+    margin: 10px;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;  
+}
+.Logos{
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.Logos img{
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    margin: 3px;
+}
+.Logos>img:hover{
+    opacity: 0.4;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+nav button{
+    height: 70%;
+    margin: 5px;
+    
+    border-color:transparent;
+    border-radius: 5%;
+
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.7;
+}
+nav button:hover{
+    opacity: 1;
+}
+nav button a{
+    text-decoration: none;
+    color: #f5f5f5;      
+}
+#B1_nav{
+    background-color: violet;
+}
+#B2_nav{
+    background-color: blue;
+}
+#B3_nav{
+    background-color: red;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+footer button{
+    margin: 2em;
+    height: 30%;
+
+    border-color:transparent;
+    border-radius: 5%;
+
+    background-color:#424242 ;
+    opacity: 0.7;
+}
+footer button:hover{
+    opacity: 1;
+}
+footer button a{
+    text-decoration: none;
+    color: #f5f5f5; 
+
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif; 
 }
