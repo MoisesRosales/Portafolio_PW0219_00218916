@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+@import "stayle";
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: $BackGround-IMG;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    height: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    height: 80%;
+    align-items: center;
+}
+.Tittle{
+
+    background-color: $blanco;
+    opacity: 0.3;   
+}
+.Tittle{
+    h1{
+        font-family: $Main-font;
+        color: $gris;
+        font-size: 6em;
+        
+        padding: 0%;
+        margin: 10px;
+    
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;  
+    }
+} 
+.Logos{
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.Logos{
+    img{
+        width: 4em;
+        height: 4em;
+        border-radius: 100%;
+        margin: 3px;
+    }
+} 
+.Logos{
+    >img:hover{
+        opacity: 0.4;
+    }
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+nav {
+    button{
+        height: 70%;
+        margin: 5px;
+        
+        border-color:transparent;
+        border-radius: 5%;
+    
+        text-transform: uppercase;
+        font-family: $Main-font;
+        opacity: 0.7;
+    }
+}
+nav{
+    button:hover{
+        opacity: 1;
+    }
+}
+nav{
+    button{
+        a{
+            text-decoration: none;
+            color: $blanco;      
+        }
+    } 
+} 
+#B1_nav{
+    background-color: $rosado;
+}
+#B2_nav{
+    background-color: $azul;;
+}
+#B3_nav{
+    background-color: $rojo;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+footer {
+    button{
+        margin: 2em;
+        height: 30%;
+    
+        border-color:transparent;
+        border-radius: 5%;
+    
+        background-color: $gris;
+        opacity: 0.7;
+    }
+}
+footer {
+    button:hover{
+        opacity: 1;
+    }
+}
+footer{
+    button {
+        a{
+            text-decoration: none;
+            color:$blanco; 
+        
+            text-transform: uppercase;
+            font-family: $Main-font; 
+        }
+    }
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(https://merakettimde.com/wp-content/uploads/2018/07/pink-wallpapers-tumblr-group-76-con-pinterest-fondos-de-pantalla-hd-e-wallpaper2you-279980-pinterest-fondos-de-pantalla-hd-1191x670px.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Tittle {
+  background-color: #f5f5f5;
+  opacity: 0.3;
+}
+
+.Tittle h1 {
+  font-family: "Oswald", sans-serif;
+  color: #424242;
+  font-size: 6em;
+  padding: 0%;
+  margin: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.Logos {
+  margin: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Logos img {
+  width: 4em;
+  height: 4em;
+  border-radius: 100%;
+  margin: 3px;
+}
+
+.Logos > img:hover {
+  opacity: 0.4;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+nav button {
+  height: 70%;
+  margin: 5px;
+  border-color: transparent;
+  border-radius: 5%;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  opacity: 0.7;
+}
+
+nav button:hover {
+  opacity: 1;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+#B1_nav {
+  background-color: #ff4081;
+}
+
+#B2_nav {
+  background-color: blue;
+}
+
+#B3_nav {
+  background-color: red;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer button {
+  margin: 2em;
+  height: 30%;
+  border-color: transparent;
+  border-radius: 5%;
+  background-color: #424242;
+  opacity: 0.7;
+}
+
+footer button:hover {
+  opacity: 1;
+}
+
+footer button a {
+  text-decoration: none;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
