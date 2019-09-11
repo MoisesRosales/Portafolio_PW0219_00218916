@@ -6,8 +6,7 @@ html{
     height: 100%;
 }
 body{
-    display: flex;
-    flex-direction: column;
+    @include UseFlex-column;
     background-image: $BackGround-IMG;
     background-attachment: fixed;
     background-position: center;
@@ -16,10 +15,7 @@ body{
     height: 100%;
 }
 main{
-    display: flex;
     justify-content: center;
-
-    flex-direction: column;
     height: 80%;
     align-items: center;
 }
@@ -104,10 +100,10 @@ nav{
     background-color: $rojo;
 }
 footer{
-    display: flex;
+    @include UseFlex-Fbutton;
     width: 100%;
     height: auto;
-    justify-content: space-between;
+    
 }
 footer {
     button{
