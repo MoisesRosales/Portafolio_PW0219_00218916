@@ -5,3 +5,13 @@ $rosado: #ff4081;
 $azul: blue;
 $rojo: red;
 $Main-font: 'Oswald', sans-serif;
+
+@mixin Useflex-column(){
+    display: flex;
+    flex-direction: column;
+    
+}
+@mixin Useflex-Fbutton(){
+    display: flex;
+    justify-content: space-between;
+}
